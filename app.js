@@ -36,8 +36,7 @@ app.post('/enquiry',(req,res)=>{
         // Mail Options
         var mailOptions={
             from:'newmailer715@gmail.com',
-            // to:'kartikenminocha@gmail.com',
-            to:'annibhalla2001@gmail.com',
+            to:'kartikenminocha@gmail.com',
             subject:'New Quick Enquiry',
             text:`A new quick enquiry has been posted. \nDetails:\nPerson's Name : ${username}\nPerson's Contact Number : ${usercontact}\nPerson's Problem/Enquiry : ${userenquiry} `
         }
@@ -77,8 +76,7 @@ app.post('/book-appointment',(req,res)=>{
         // Mail Options1
         var mailOption1={
             from:'newmailer715@gmail.com',
-            // to:'kartikenminocha@gmail.com',
-            to:'annibhalla2001@gmail.com',
+            to:'kartikenminocha@gmail.com',
             subject:'New Appointment',
             text:`A new appointment has been booked.\nDetails:\nPerson's Name : ${person_name}\nPerson's Email : ${person_email}\nPerson's Contact Number : ${person_contact}\nAppointment Date : ${person_date_slot}\nAppointment Time :  ${person_time_slot}\nLocation :  ${person_location}`
         }
